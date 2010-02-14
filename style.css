@@ -1,0 +1,330 @@
+/* 
+Theme Name: Our Love Stories
+Theme URL: http://our-love-stories.com/
+Description: Theme for Lovers.
+Author: MC Geek
+Author URI: http://www.mcgeek.cn
+Version: 0.5
+*/
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(images/bg.jpg) no-repeat fixed center -112px;
+	font: 14px "Lucida Grande", Tahoma, Verdana, arial, sans-serif, hei;
+}
+a:link, a:visited {
+	color: #005EAC;
+	text-decoration: none;
+}
+a:hover {
+	color: #00aedb;
+	text-decoration: none;
+}
+
+h2 a:link,h2 a:visited {
+	color: #00aedb;
+	text-decoration: none;
+}
+h2 a:hover {
+	color: #005EAC;
+	text-decoration: none;
+}
+
+a img {
+	border:none;
+}
+
+
+
+div#middle a:link,div#middle a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+div#middle a:hover {
+	color: #EEE;
+	text-decoration: none;
+	background-color: #666;
+}
+
+div#header {
+	height: 35px;
+	width: 100%;
+	background: url(images/b.png) repeat;
+}
+
+div#header li{
+	display: block;
+	float: left;
+	height: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 3px dotted #333;
+	color: #000;
+	font-size: 18px;
+}
+
+div#header a,div#header a:visited{
+	font-size: 18px;
+	color: #000;
+}
+div#header a:hover {
+	color: #ffd91e;
+}
+
+div#header li:hover{
+	background: url(images/b75.png) repeat;
+	color: #ffd91e;
+}
+div#header li.b:hover{
+	background: none repeat;
+	color: #000;
+}
+div#header li.s{
+	float: right;
+	background: none repeat;
+	color: #ffd91e;
+	margin-right: 5px;
+	border-right-style: none;
+}
+div#header li.s:hover{
+	float: right;
+	background: none repeat;
+	color: #000;
+	margin-right: 5px;
+	border-right-style: none;
+}
+
+div#main {
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 280px;
+	margin-bottom: 0;
+}
+div#mainpage {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+	margin-bottom: 0;
+}
+
+div#left {
+	width: 354px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	background: url(images/w.png) repeat;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 3px solid #DDD;
+	padding-bottom: 25px;
+}
+
+div#middle {
+	width: 178px;
+	float: left;
+	text-align: center;
+	background: url(images/b.png) repeat;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+div#right {
+	width: 354px;
+	height: auto;
+	float: right;
+	background: url(images/w.png) repeat;
+	margin-left: 10px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 3px solid #DDD;
+	padding-bottom: 25px;
+
+}
+
+div#left:hover {
+	background-color: #FFF;
+}
+
+div#right:hover {
+	background-color: #FFF;
+
+}
+div.postleft {
+	padding-left: 15px;
+	padding-right: 10px;
+
+}
+
+div.post {
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+div.postright {
+	padding-left: 10px;
+	padding-right: 15px;
+
+}
+
+div.postmeta {
+	border-bottom: 2px dashed #999;
+	padding-bottom: 5px;
+}
+
+div#middle ul {
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#middle ul{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+div#cmt ul{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+div#middle li {
+	display: block;
+}
+
+input#s {
+	width: 135px;
+	margin-bottom: 5px;
+	background: url(images/b.png) repeat;
+	color: #FFF;
+}
+input#searchsubmit {
+	background: url(images/b.png) repeat;
+	color: #FFF;
+}
+
+div.wrap-right {
+	width: 560px;
+	height: auto;
+	float: right;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 3px solid #DDD;
+	padding-bottom: 25px;
+	background-color: #FFF;
+}
+
+div.wrap-left {
+	width: 560px;
+	height: auto;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 3px solid #DDD;
+	padding-bottom: 25px;
+	background-color: #FFF;
+}
+
+div#left img,div#right img {
+	max-width:320px;
+}
+
+div.wrap-left img,div.wrap-left img {
+	max-width:520px;
+}
+
+
+div.fullpage {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 3px solid #DDD;
+	padding-bottom: 25px;
+	background-color: #FFF;
+}
+
+
+
+div.clear {
+	clear: both;
+}
+
+div#footer {
+	width: 100%;
+	height: auto;
+	background: url(images/w.png) repeat;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top: 3px solid #DDD;
+	border-left: 3px solid #DDD;
+	border-right: 3px solid #DDD;
+	padding-bottom: 15px;
+	text-align: center;
+}
+textarea#comment {
+	width:520px;
+	padding:2px;
+}
+
+textarea#comment:focus {
+	border:1px solid #33CC00;
+	padding:2px;
+}
+
+div.comment-body {
+	padding:10px 5px;
+	margin-top:2px;
+	margin-bottom:3px;
+	border:2px #CCC solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.comment-body:hover {
+	padding:10px 5px;
+	margin-top:2px;
+	margin-bottom:3px;
+	border:2px #999 solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+div#cmt li {
+	display:block;
+}
+
+div#cmt blockquote {
+	background-color: #EEE;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding:2px 15px;
+}
+
+div.author p{
+	color: #666;
+	font-size: 12px;
+}
